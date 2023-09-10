@@ -1,0 +1,176 @@
+
+## application elements
+start =
+    application
+    | element applications { application+ }
+application =
+    element application {
+        attribute id { xsd:integer },
+        attribute language { xsd:language },
+        application-meta,
+        job-position,
+        notice-period,
+        cv
+    }
+notice-period =
+    element notice-period {
+        attribute days {
+            xsd:integer { minInclusive = "1" maxInclusive = "31" }
+        }?,
+        attribute month {
+            xsd:integer { minInclusive = "1" maxInclusive = "12" }
+        }?,
+        text
+    }
+application-meta =
+    element application-meta {
+        element applicant-identifier { xsd:string },
+        element date-received { xsd:date },
+        element version { xsd:integer },
+        application-key-skill?,
+        application-status
+    }
+application-key-skill =
+    element application-key-skill {
+        element primary { xsd:string },
+        element secondary { xsd:string }?,
+        element tertiaryy { xsd:string }?
+    }
+application-status =
+    element application-status {
+        attribute status {
+            "pending" | "published" | "accepted" | "declined" | "ready-for-deletion"
+        },
+        text
+    }
+job-position =
+    element job-position {
+        attribute seniority-level {
+            "junior" | "associate" | "senior" | "lead" | "manager" | "director" | "executive"
+        },
+        attribute name { xsd:string },
+        text
+    }
+cv =
+    element cv {
+        attribute original-filename { xsd:string },
+        attribute original-format { xsd:string },
+        personal-info,
+        figure?,
+        contact,
+        description?,
+        expertises?,
+        educations?,
+        experiences?,
+        languages?,
+        hobbies?
+    }
+
+## CV elements
+expertises = element expertises { expertise+ }
+expertise = element expertise { role?, description?, skills }
+educations = element educations { education+ }
+education =
+    element education {
+        time-period?,
+        organization,
+        element intended-degree { xsd:string }?,
+        element degree-completed { xsd:boolean }?,
+        description?
+    }
+experiences = element experiences { experience+ }
+experience = element experience { time-period?, role, organization?, achievements* }
+achievements = element achievements { achievement+ }
+achievement = element achievement { title, time-period?, skills?, description? }
+languages = element languages { language+ }
+language =
+    element language {
+        element name { xsd:string },
+        level?
+    }
+level =
+    element level {
+        attribute cefr-level { "A1" | "A2" | "B1" | "B2" | "C1" | "C2" }?,
+        text
+    }
+hobbies = element hobbies { hobby+ }
+hobby =
+    element hobby {
+        element name { xsd:string },
+        description?
+    }
+
+## problem domain elements
+skills = element skills { skill+ }
+skill =
+    element skill {
+        attribute name { text }?,
+        attribute category { text }?,
+        title,
+        description?
+    }
+organization =
+    element organization {
+        attribute type { "industry" | "academic" | text }?,
+        attribute area { "automotive" | "engineering" | "aviation" | "education" | text }?,
+        element name { xsd:string },
+        description?,
+        contact?
+    }
+personal-info =
+    element personal-info {
+        element salutation { xsd:string }?,
+        element surname { xsd:string },
+        element middle-name { xsd:string }?,
+        element given-name { xsd:string },
+        element date-of-birth { xsd:date }?
+    }
+contact =
+    element contact {
+        element email { xsd:string }?,
+        element phone { xsd:string }?,
+        web?,
+        address
+    }
+address =
+    element address {
+        element address-line-1 { xsd:string },
+        element address-line-2 { xsd:string }?,
+        element city { xsd:string }?,
+        element state { xsd:string }?,
+        element zip { xsd:string }?,
+        element country { xsd:string }?
+    }
+role = element role { title, description? }
+
+## formatting block elements 
+figure = element figure { img, title }
+description = element description { (p | ul)+ }
+web = element web { url+ }
+title = element title { inline+ }
+p = element p { inline* }
+ul = element ul { li+ }
+li = element li { (p | ul)* }
+img =
+    element img {
+        attribute filename { xsd:anyURI }
+    }
+
+## formatting inline elements 
+inline =
+    (text
+     | element b { inline }
+     | element i { inline }
+     | element u { inline }
+     | element sub { inline }
+     | element sup { inline })*
+url =
+    element url {
+        attribute address { xsd:anyURI },
+        text
+    }
+time-period =
+    element time-period {
+        element start-date { xsd:date },
+        element end-date { xsd:date }?
+    }

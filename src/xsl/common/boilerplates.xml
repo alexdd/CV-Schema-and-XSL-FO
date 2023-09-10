@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boilerplates>
+    <boilerplate key="B_skills">
+        <translation lang="de-DE">Kompetenzen</translation>
+        <translation lang="en-GB">Skills</translation>
+    </boilerplate>
+    <boilerplate key="B_organization_academic">
+        <translation lang="de-DE">Ausbildungsstätte</translation>
+        <translation lang="en-GB">Institution</translation>
+    </boilerplate>
+    <boilerplate key="B_organization_industry">
+        <translation lang="de-DE">Firma:</translation>
+        <translation lang="en-GB">Company:</translation>
+    </boilerplate>
+    <boilerplate key="B_date-of-birth">
+        <translation lang="de-DE">Geb. am:</translation>
+        <translation lang="en-GB">Born on:</translation>
+    </boilerplate>
+    <boilerplate key="B_email">
+        <translation lang="de-DE">Email:</translation>
+        <translation lang="en-GB">eMail:</translation>
+    </boilerplate>
+    <boilerplate key="B_phone">
+        <translation lang="de-DE">Telefon:</translation>
+        <translation lang="en-GB">Phone:</translation>
+    </boilerplate>
+    <boilerplate key="B_expertises">
+        <translation lang="de-DE">Expertise</translation>
+        <translation lang="en-GB">Area of Expertise</translation>
+    </boilerplate>
+    <boilerplate key="B_educations">
+        <translation lang="de-DE">Formale Qualification</translation>
+        <translation lang="en-GB">Education</translation>
+    </boilerplate>
+    <boilerplate key="B_experiences">
+        <translation lang="de-DE">Arbeitserfahrung</translation>
+        <translation lang="en-GB">Work Experience</translation>
+    </boilerplate>
+    <boilerplate key="B_languages">
+        <translation lang="de-DE">Sprachen</translation>
+        <translation lang="en-GB">Languages</translation>
+    </boilerplate>
+    <boilerplate key="B_hobbies">
+        <translation lang="de-DE">Hobbies</translation>
+        <translation lang="en-GB">Hobbies</translation>
+    </boilerplate>
+    <boilerplate key="B_applicant-identifier">
+        <translation lang="de-DE">Bewerber ID:</translation>
+        <translation lang="en-GB">Applicant ID:</translation>
+    </boilerplate>
+    <boilerplate key="B_application-status">
+        <translation lang="de-DE">Status:</translation>
+        <translation lang="en-GB">Status:</translation>
+    </boilerplate>
+    <boilerplate key="B_date-received">
+        <translation lang="de-DE">Eingegangen am:</translation>
+        <translation lang="en-GB">Received on:</translation>
+    </boilerplate>
+    <boilerplate key="B_version">
+        <translation lang="de-DE">Version:</translation>
+        <translation lang="en-GB">Version:</translation>
+    </boilerplate>
+    <boilerplate key="B_notice-period">
+        <translation lang="de-DE">Kündigungsfrist:</translation>
+        <translation lang="en-GB">Notice period:</translation>
+    </boilerplate>
+    <boilerplate key="B_address-line-1">
+        <translation lang="de-DE">Adresse:</translation>
+        <translation lang="en-GB">Address:</translation>
+    </boilerplate>
+    <boilerplate key="B_address-line-2">
+        <translation lang="de-DE">Adresse:</translation>
+        <translation lang="en-GB">Address:</translation>
+    </boilerplate>
+    <boilerplate key="B_zip">
+        <translation lang="de-DE">Postleitzahl:</translation>
+        <translation lang="en-GB">Zip:</translation>
+    </boilerplate>
+    <boilerplate key="B_city">
+        <translation lang="de-DE">Stadt:</translation>
+        <translation lang="en-GB">City:</translation>
+    </boilerplate>
+    <boilerplate key="B_state">
+        <translation lang="de-DE">Bezirk:</translation>
+        <translation lang="en-GB">State:</translation>
+    </boilerplate>
+    <boilerplate key="B_country">
+        <translation lang="de-DE">Land:</translation>
+        <translation lang="en-GB">Country:</translation>
+    </boilerplate>
+    <boilerplate key="B_language">
+        <translation lang="de-DE">Sprache:</translation>
+        <translation lang="en-GB">Language:</translation>
+    </boilerplate>
+    <boilerplate key="B_application-key-skill">
+        <translation lang="de-DE">Schlüsselkompetenz:</translation>
+        <translation lang="en-GB">Key Skills:</translation>
+    </boilerplate>
+    <boilerplate key="B_role">
+        <translation lang="de-DE">Rolle:</translation>
+        <translation lang="en-GB">Role:</translation>
+    </boilerplate>
+    <boilerplate key="B_achievements">
+        <translation lang="de-DE">Errungenschaften:</translation>
+        <translation lang="en-GB">Achievements:</translation>
+    </boilerplate>
+    <boilerplate key="B_management-summary">
+        <translation lang="de-DE">Management Summary</translation>
+        <translation lang="en-GB">Management Summary</translation>
+    </boilerplate>
+</boilerplates>
