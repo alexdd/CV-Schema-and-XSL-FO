@@ -1,2 +1,2 @@
-# XMLDevTest
-Applied for a job as XML Dev and got this assignment
+# CV XML
+Schema and XSL-FO transformation for CV processing
