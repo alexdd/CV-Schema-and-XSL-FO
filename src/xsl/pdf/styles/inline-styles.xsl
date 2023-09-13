@@ -9,6 +9,8 @@
             </xsl:when>
             <xsl:when test="self::name">
                 <xsl:attribute name="text-transform">capitalize</xsl:attribute>
+                <xsl:attribute name="font-weight">bold</xsl:attribute>
+                <xsl:attribute name="font-style">italic</xsl:attribute>
             </xsl:when>
             <xsl:when test="self::sub">
                 <xsl:attribute name="font-size">67%</xsl:attribute>
@@ -29,7 +31,6 @@
 
     <xsl:attribute-set name="time-period">
         <xsl:attribute name="font-style">italic</xsl:attribute>
-        <xsl:attribute name="background-color">light-grey</xsl:attribute>
     </xsl:attribute-set>
 
 </xsl:stylesheet>

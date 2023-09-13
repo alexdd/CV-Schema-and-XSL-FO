@@ -11,7 +11,7 @@
 		<xsl:attribute name="hyphenation-push-character-count">3</xsl:attribute>
 		<xsl:attribute name="hyphenation-remain-character-count">3</xsl:attribute>
 		<xsl:attribute name="language">
-			<xsl:value-of select="(//application)[1]/@language"/>
+			<xsl:value-of select="substring-before((//application)[1]/@language,'-')"/>
 		</xsl:attribute>
 	</xsl:attribute-set>
 

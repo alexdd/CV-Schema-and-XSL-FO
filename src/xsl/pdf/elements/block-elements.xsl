@@ -27,7 +27,7 @@
 	</xsl:template>
 
 	<xsl:template match="img">
-		<fo:external-graphic xsl:use-attribute-sets="figure-img" src="{concat('../../',@filename)}"
+		<fo:external-graphic xsl:use-attribute-sets="figure-img" src="{@filename}"
 		/>
 	</xsl:template>
 

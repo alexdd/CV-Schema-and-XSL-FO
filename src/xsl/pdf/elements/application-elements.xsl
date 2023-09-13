@@ -12,7 +12,6 @@
 
 	<xsl:template match="application">
 		<fo:page-sequence master-reference="page">
-			<xsl:call-template name="header-and-footer"/>
 			<fo:flow flow-name="xsl-region-body">
 				<xsl:apply-templates/>
 			</fo:flow>

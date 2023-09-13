@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cv.rnc" type="application/relax-ng-compact-syntax" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<application id="1" language="en-GB">
+    <application-meta>
+        <applicant-identifier>pythonpaul-0001</applicant-identifier>
+        <date-received>2023-09-08</date-received>
+        <version>1</version>
+        <application-key-skill>
+            <primary>Yoga</primary>
+            <secondary>Python</secondary>
+        </application-key-skill>
+        <application-status status="published">Published to HR</application-status>
+    </application-meta>
+    <job-position seniority-level="senior" name="python-developer">Senior Python
+        Developer</job-position>
+    <notice-period days="15">15 days</notice-period>
+    <cv original-filename="20230807_pythoneer.pdf" original-format="pdf">
+        <personal-info>
+            <surname>Paul</surname>
+            <given-name>Pythoneer</given-name>
+        </personal-info>
+        <figure>
+            <img filename="./alex.png"/>
+            <title>this is not Paul but Alex</title>
+        </figure>
+        <contact>
+            <email>pythoneer@example.com</email>
+            <phone>+49 9999 88888</phone>
+            <web>
+                <url address="http://www.example.com">www.example.com</url>
+                <url address="http://www.example.com/pythoneer">Personal Homepage</url>
+            </web>
+            <address>
+                <address-line-1>Krackhardtstr. 6c</address-line-1>
+                <address-line-2>3. Stock</address-line-2>
+                <city>Bamberg</city>
+                <state>Bavaria</state>
+                <zip>96047</zip>
+                <country>Germany</country>
+            </address>
+        </contact>
+        <description>
+            <p>Over the last years, Paul has been more involved in <b>automation projects</b>,
+                <b>paperless processes</b> and <b>form-based workflows</b>, dealing with
+                healthcare data and insurance papers. He is also a good communicator and enjoys
+                presenting to the business and to the team. He is experienced in coordinating
+                project activities across continents. </p>
+        </description>
+        <expertises>
+            <expertise>
+                <role>
+                    <title>Fullstack Software Engineer</title>
+                </role>
+                <description>
+                    <p>Frontend, Backend, Containerization</p>
+                </description>
+                <skills>
+                    <skill name="python" category="programming-languages">
+                        <title>Python</title>
+                        <description>
+                            <p>Advanced Level programmer</p>
+                            <ul>
+                                <li>
+                                    <p>DRF</p>
+                                </li>
+                                <li>
+                                    <p>Django</p>
+                                </li>
+                                <li>
+                                    <p>FastAPI</p>
+                                </li>
+                            </ul>
+                        </description>
+                    </skill>
+                    <skill name="java" category="programming-languages">
+                        <title>Java</title>
+                        <description>
+                            <p>Intermediate Level, but continously improving</p>
+                            <ul>
+                                <li>
+                                    <p>Spring Boot</p>
+                                </li>
+                            </ul>
+                        </description>
+                    </skill>
+                    <skill category="project-management">
+                        <title>Estimation</title>
+                        <description>
+                            <p>Time and effort estimation of development tasks</p>
+                        </description>
+                    </skill>
+                </skills>
+            </expertise>
+            <expertise>
+                <role>
+                    <title>Yoga Teacher</title>
+                </role>
+                <description>
+                    <p>Certified Ashtanga Yoga Teacher</p>
+                </description>
+                <skills>
+                    <skill name="yoga" category="well-being">
+                        <title>Yoga</title>
+                        <description>
+                            <p>A Hindu spiritual and ascetic discipline</p>
+                        </description>
+                    </skill>
+                </skills>
+            </expertise>
+        </expertises>
+        <educations>
+            <education>
+                <time-period>
+                    <start-date>2021-07-01</start-date>
+                    <end-date>2022-12-31</end-date>
+                </time-period>
+                <organization type="academic">
+                    <name>Oxford University</name>
+                    <description>
+                        <p>The University of Oxford is a collegiate research university in
+                            Oxford, England</p>
+                    </description>
+                    <contact>
+                        <web>
+                            <url address="https://www.ox.ac.uk/">Oxford University Website</url>
+                        </web>
+                        <address>
+                            <address-line-1>Oxford</address-line-1>
+                        </address>
+                    </contact>
+                </organization>
+                <intended-degree>M.Sc. Cop. Science</intended-degree>
+                <degree-completed>false</degree-completed>
+                <description>
+                    <p>Attended some classes in the computer science programm but due to my
+                        rising interest in yoga I quit!</p>
+                </description>
+            </education>
+            <education>
+                <time-period>
+                    <start-date>2019-01-01</start-date>
+                    <end-date>2021-06-30</end-date>
+                </time-period>
+                <organization type="school">
+                    <name>Elementary School Bamberg</name>
+                </organization>
+            </education>
+        </educations>
+        <experiences>
+            <experience>
+                <time-period>
+                    <start-date>2022-08-01</start-date>
+                    <end-date>2022-08-05</end-date>
+                </time-period>
+                <role>
+                    <title>Microsoft<sup>TM</sup> specialist</title>
+                    <description>
+                        <p>Certified by Microsoft<sup>TM</sup></p>
+                    </description>
+                </role>
+                <organization area="automotive" type="industry">
+                    <name>CarCompany</name>
+                    <description>
+                        <p>CarCompany sells a lot of cars every year.</p>
+                    </description>
+                </organization>
+                <achievements>
+                    <achievement>
+                        <title>Installed Windows<sup>TM</sup> OS everywhere</title>
+                        <time-period>
+                            <start-date>2022-08-01</start-date>
+                            <end-date>2022-08-03</end-date>
+                        </time-period>
+                        <skills>
+                            <skill name="os-installation" category="operations">
+                                <title>Windows<sup>TM</sup> installation</title>
+                                <description>
+                                    <p>This skill needs to be described with some bullet
+                                        points</p>
+                                    <ul>
+                                        <li>
+                                            <p>bullet point 1</p>
+                                        </li>
+                                        <li>
+                                            <p>bullet point 2</p>
+                                        </li>
+                                    </ul>
+                                </description>
+                            </skill>
+                        </skills>
+                        <description>
+                            <p>Walked from desk to desk and Clicked on the installer icon.</p>
+                            <ul>
+                                <li>
+                                    <p>That was hard work!</p>
+                                </li>
+                                <li>
+                                    <p>I really do not regret this!</p>
+                                </li>
+                            </ul>
+                        </description>
+                    </achievement>
+                    <achievement>
+                        <title>Unwired cable salad unter each desk</title>
+                        <time-period>
+                            <start-date>2022-08-04</start-date>
+                            <end-date>2022-08-05</end-date>
+                        </time-period>
+                        <description>
+                            <p>Walked from desk to desk and cleaned up the cable mess under each
+                                desk.</p>
+                        </description>
+                    </achievement>
+                </achievements>
+            </experience>
+            <experience>
+                <time-period>
+                    <start-date>2023-08-01</start-date>
+                    <end-date>2023-08-15</end-date>
+                </time-period>
+                <role>
+                    <title>Software Developer</title>
+                </role>
+                <organization area="banking" type="industry">
+                    <name>Big Bank</name>
+                    <contact>
+                        <address>
+                            <address-line-1>Big City</address-line-1>
+                            <country>Big Country</country>
+                        </address>
+                    </contact>
+                </organization>
+                <achievements>
+                    <achievement>
+                        <title>Converted Big Data</title>
+                        <description>
+                            <p>I really have to put this really important para here!</p>
+                        </description>
+                    </achievement>
+                </achievements>
+            </experience>
+            
+        </experiences>
+        <hobbies>
+            <hobby>
+                <name>Underwater Hockey</name>
+                <description>
+                    <p>Started swimming, snorkeling, diving and finally found my passion playing
+                        underwater hockey.</p>
+                </description>
+            </hobby>
+        </hobbies>
+    </cv>
+</application>

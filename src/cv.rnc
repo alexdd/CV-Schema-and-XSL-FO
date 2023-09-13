@@ -34,7 +34,7 @@ application-key-skill =
     element application-key-skill {
         element primary { xsd:string },
         element secondary { xsd:string }?,
-        element tertiaryy { xsd:string }?
+        element tertiary { xsd:string }?
     }
 application-status =
     element application-status {

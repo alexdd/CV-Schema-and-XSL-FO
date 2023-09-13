@@ -16,8 +16,8 @@
         </fo:block>
     </xsl:template>
 
-    <xsl:template match="experience">
-        <fo:table xsl:use-attribute-sets="experience">
+    <xsl:template match="experience | expertise | education">
+        <fo:table xsl:use-attribute-sets="cv-category">
             <fo:table-body>
                 <fo:table-row>
                     <fo:table-cell width="25mm">
@@ -62,8 +62,8 @@
         </fo:block>
     </xsl:template>
 
-    <xsl:template match="achievement/description">
-        <fo:block xsl:use-attribute-sets="achievement-description">
+    <xsl:template match="achievement/description | expertise/description">
+        <fo:block xsl:use-attribute-sets="cv-sub-category">
             <xsl:next-match/>
         </fo:block>
     </xsl:template>

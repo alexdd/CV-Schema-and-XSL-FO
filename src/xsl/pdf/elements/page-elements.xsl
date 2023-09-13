@@ -18,13 +18,4 @@
         </fo:layout-master-set>
     </xsl:template>
 
-    <xsl:template name="header-and-footer">
-        <!--  fo:static-content flow-name="xsl-region-before">
-		</fo:static-content>
-		<fo:static-content flow-name="xsl-region-after">
-		</fo:static-content-->
-    </xsl:template>
-
-
-
 </xsl:stylesheet>

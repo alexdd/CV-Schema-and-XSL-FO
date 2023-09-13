@@ -2,8 +2,8 @@
 
 <xsl:stylesheet version="3.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-	<xsl:attribute-set name="experience">
-		<xsl:attribute name="margin-bottom">5mm</xsl:attribute>
+	<xsl:attribute-set name="cv-category">
+		<xsl:attribute name="margin-bottom">4mm</xsl:attribute>
 	</xsl:attribute-set>
 
 	<xsl:attribute-set name="cv-description">
@@ -28,9 +28,10 @@
 		<xsl:attribute name="keep-together">always</xsl:attribute>
 	</xsl:attribute-set>
 
-	<xsl:attribute-set name="achievement-description">
+	<xsl:attribute-set name="cv-sub-category">
 		<xsl:attribute name="font-style">italic</xsl:attribute>
 		<xsl:attribute name="color">grey</xsl:attribute>
+		<xsl:attribute name="space-before">6pt</xsl:attribute>
 	</xsl:attribute-set>
 
 </xsl:stylesheet>

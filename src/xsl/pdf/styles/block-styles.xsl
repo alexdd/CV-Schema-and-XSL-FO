@@ -42,6 +42,8 @@
 	<xsl:attribute-set name="title">
 		<xsl:attribute name="font-size">11pt</xsl:attribute>
 		<xsl:attribute name="line-height">120%</xsl:attribute>
+		<xsl:attribute name="font-weight">bold</xsl:attribute>
+		<xsl:attribute name="keep-with-next">always</xsl:attribute>
 	</xsl:attribute-set>
 
 </xsl:stylesheet>

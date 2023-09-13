@@ -45,9 +45,17 @@
 		<xsl:attribute name="space-before">4pt</xsl:attribute>
 		<xsl:attribute name="space-after">5pt</xsl:attribute>
 	</xsl:attribute-set>
-
-	<xsl:attribute-set name="skill"> </xsl:attribute-set>
-
+	
+	<xsl:attribute-set name="skills-title">
+		<xsl:attribute name="text-decoration">underline</xsl:attribute>
+		<xsl:attribute name="font-weight">bold</xsl:attribute>
+		<xsl:attribute name="space-after">4pt</xsl:attribute>
+		
+	</xsl:attribute-set>
+	
+	<xsl:attribute-set name="skill">
+	</xsl:attribute-set>
+	
 	<xsl:attribute-set name="role">
 		<xsl:attribute name="space-after">2pt</xsl:attribute>
 		<xsl:attribute name="background-color">#f3f3f3</xsl:attribute>

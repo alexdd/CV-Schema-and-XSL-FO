@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+         font-family="Arial"
+         font-size="11pt"
+         line-height="120%"
+         font-weight="normal"
+         hyphenate="true"
+         hyphenation-push-character-count="3"
+         hyphenation-remain-character-count="3"
+         language="en">
+   <fo:layout-master-set>
+      <fo:simple-page-master master-name="page">
+         <fo:region-body margin-left="20mm"
+                         margin-right="20mm"
+                         margin-top="15mm"
+                         margin-bottom="15mm"/>
+      </fo:simple-page-master>
+      <fo:page-sequence-master master-name="page-sequence">
+         <fo:repeatable-page-master-reference master-reference="page"/>
+      </fo:page-sequence-master>
+   </fo:layout-master-set>
+   <fo:page-sequence master-reference="page">
+      <fo:flow flow-name="xsl-region-body">
+         <fo:table border="1pt grey solid"
+                   border-spacing="2mm"
+                   border-collapse="separate"
+                   space-after="18pt">
+            <fo:table-body>
+               <fo:table-row>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Applicant ID:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> jennajava-0001</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Received on:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> 2023-09-08</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Version:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> 3</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Status:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> Waiting to be screened</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Language:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>en-GB</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Key Skills:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>
+                Java
+            </fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+            </fo:table-body>
+         </fo:table>
+         <fo:block font-weight="bold"
+                   font-size="18pt"
+                   text-align="center"
+                   space-after="4pt"> Java Developer</fo:block>
+         <fo:block font-size="9pt"
+                   font-style="italic"
+                   color="grey"
+                   text-align="center"
+                   space-after="10pt">(Notice period: None)</fo:block>
+         <fo:block font-size="16pt" space-after="10pt" border-bottom="1pt black solid">
+                Jenna
+                Janice
+                Javanis
+                <fo:block/>
+            <fo:block font-size="9pt">* Born on: 1998-12-23</fo:block>
+         </fo:block>
+         <fo:table>
+            <fo:table-body>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block padding="5pt" border="1pr black solid">
+                        <fo:block>
+                           <fo:inline font-weight="bold">eMail:</fo:inline> jennajavalover@example.com</fo:block>
+                        <fo:block>
+                           <fo:inline font-weight="bold">Address:</fo:inline> Singapore</fo:block>
+                     </fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+            </fo:table-body>
+         </fo:table>
+         <fo:block space-after="8pt">
+            <fo:block font-size="16pt"
+                      line-height="120%"
+                      border-bottom="1pt black solid"
+                      space-before="10pt"
+                      space-after="6pt"
+                      keep-with-next="always">Area of Expertise</fo:block>
+            <fo:table margin-bottom="4mm">
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell width="25mm">
+                        <fo:block/>
+                     </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block space-after="2pt"
+                                  background-color="#f3f3f3"
+                                  border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     keep-with-next="always">Java Enterprise Developer</fo:block>
+                        </fo:block>
+                        <fo:block font-style="italic" color="grey" space-before="6pt">
+                           <fo:block font-size="11pt" line-height="140%">J2EE, OSGI, Microservices</fo:block>
+                        </fo:block>
+                        <fo:block space-before="4pt" space-after="5pt">
+                           <fo:block text-decoration="underline" font-weight="bold" space-after="4pt">Skills:</fo:block>
+                           <fo:block>
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        keep-with-next="always">Only Java</fo:block>
+                           </fo:block>
+                        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block space-after="8pt">
+            <fo:block font-size="16pt"
+                      line-height="120%"
+                      border-bottom="1pt black solid"
+                      space-before="10pt"
+                      space-after="6pt"
+                      keep-with-next="always">Work Experience</fo:block>
+            <fo:table margin-bottom="4mm">
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell width="25mm">
+                        <fo:block>
+                           <fo:inline font-style="italic">2023-08-01 - 2023-08-15</fo:inline>
+                        </fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block space-after="2pt"
+                                  background-color="#f3f3f3"
+                                  border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     keep-with-next="always">Software Developer</fo:block>
+                        </fo:block>
+                        <fo:block border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt"
+                                  space-before="6pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     space-after="4pt"
+                                     keep-with-next="always">Company:</fo:block>
+                           <fo:inline text-transform="capitalize" font-weight="bold" font-style="italic">Big Bank</fo:inline>
+                           <fo:block padding="5pt" border="1pr black solid">
+                              <fo:block>
+                                 <fo:inline font-weight="bold">Address:</fo:inline> Big City</fo:block>
+                              <fo:block>
+                                 <fo:inline font-weight="bold">Country:</fo:inline> Big Country</fo:block>
+                           </fo:block>
+                        </fo:block>
+                        <fo:block space-before="6pt"
+                                  border="1pt grey solid"
+                                  margin="2pt"
+                                  padding="2pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     space-after="4pt"
+                                     keep-with-next="always">Achievements:</fo:block>
+                           <fo:block background-color="#f3f3f3"
+                                     border-bottom="5pt white solid"
+                                     space-before="4pt"
+                                     keep-together="always">
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        space-after="4pt"
+                                        keep-with-next="always"/>
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        keep-with-next="always">Converted Big Data</fo:block>
+                              <fo:block font-style="italic" color="grey" space-before="6pt">
+                                 <fo:block font-size="11pt" line-height="140%">I really have to put this really important para here!</fo:block>
+                              </fo:block>
+                           </fo:block>
+                        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block space-after="8pt">
+            <fo:block font-size="16pt"
+                      line-height="120%"
+                      border-bottom="1pt black solid"
+                      space-before="10pt"
+                      space-after="6pt"
+                      keep-with-next="always">Languages</fo:block>
+            <fo:block color="red" background-color="yellow">Unhandled block element: language</fo:block>
+            <fo:block color="red" background-color="yellow">Unhandled block element: language</fo:block>
+         </fo:block>
+      </fo:flow>
+   </fo:page-sequence>
+   <fo:page-sequence master-reference="page">
+      <fo:flow flow-name="xsl-region-body">
+         <fo:table border="1pt grey solid"
+                   border-spacing="2mm"
+                   border-collapse="separate"
+                   space-after="18pt">
+            <fo:table-body>
+               <fo:table-row>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Applicant ID:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> pythonpaul-0001</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Received on:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> 2023-09-08</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Version:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> 1</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Status:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> Published to HR</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Language:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>en-GB</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Key Skills:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>
+                Yoga, 
+                Python
+            </fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+            </fo:table-body>
+         </fo:table>
+         <fo:block font-weight="bold"
+                   font-size="18pt"
+                   text-align="center"
+                   space-after="4pt"> Senior Python
+            Developer</fo:block>
+         <fo:block font-size="9pt"
+                   font-style="italic"
+                   color="grey"
+                   text-align="center"
+                   space-after="10pt">(Notice period: 15 days)</fo:block>
+         <fo:block font-size="16pt" space-after="10pt" border-bottom="1pt black solid">
+                Paul
+                Pythoneer
+            </fo:block>
+         <fo:table>
+            <fo:table-body>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block padding="5pt" border="1pr black solid">
+                        <fo:block>
+                           <fo:inline font-weight="bold">eMail:</fo:inline> pythoneer@example.com</fo:block>
+                        <fo:block>
+                           <fo:inline font-weight="bold">Phone:</fo:inline> +49 9999 88888</fo:block>
+                        <fo:block color="red" background-color="yellow">Unhandled block element: web</fo:block>
+                        <fo:block>
+                           <fo:inline font-weight="bold">Address:</fo:inline> Krackhardtstr. 6c</fo:block>
+                        <fo:block>
+                           <fo:inline font-weight="bold">Address:</fo:inline> 3. Stock</fo:block>
+                        <fo:block>
+                           <fo:inline font-weight="bold">City:</fo:inline> Bamberg</fo:block>
+                        <fo:block>
+                           <fo:inline font-weight="bold">State:</fo:inline> Bavaria</fo:block>
+                        <fo:block>
+                           <fo:inline font-weight="bold">Zip:</fo:inline> 96047</fo:block>
+                        <fo:block>
+                           <fo:inline font-weight="bold">Country:</fo:inline> Germany</fo:block>
+                     </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>
+                        <fo:external-graphic content-width="70mm" src="./alex.png"/>
+                        <fo:block font-size="11pt" font-style="italic" text-align="center">this is not Paul but Alex</fo:block>
+                     </fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+            </fo:table-body>
+         </fo:table>
+         <fo:block font-size="16pt"
+                   line-height="120%"
+                   border-bottom="1pt black solid"
+                   space-before="10pt"
+                   space-after="6pt"
+                   keep-with-next="always">Management Summary</fo:block>
+         <fo:block text-align="justify"
+                   font-style="italic"
+                   space-after="10pt"
+                   background-color="#f3f3f3"
+                   padding="2pt">
+            <fo:block font-size="11pt" line-height="140%">Over the last years, Paul has been more involved in <fo:inline font-weight="bold">automation projects</fo:inline>,
+                        <fo:inline font-weight="bold">paperless processes</fo:inline> and <fo:inline font-weight="bold">form-based workflows</fo:inline>, dealing with
+                    healthcare data and insurance papers. He is also a good communicator and enjoys
+                    presenting to the business and to the team. He is experienced in coordinating
+                    project activities across continents. </fo:block>
+         </fo:block>
+         <fo:block space-after="8pt">
+            <fo:block font-size="16pt"
+                      line-height="120%"
+                      border-bottom="1pt black solid"
+                      space-before="10pt"
+                      space-after="6pt"
+                      keep-with-next="always">Area of Expertise</fo:block>
+            <fo:table margin-bottom="4mm">
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell width="25mm">
+                        <fo:block/>
+                     </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block space-after="2pt"
+                                  background-color="#f3f3f3"
+                                  border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     keep-with-next="always">Fullstack Software Engineer</fo:block>
+                        </fo:block>
+                        <fo:block font-style="italic" color="grey" space-before="6pt">
+                           <fo:block font-size="11pt" line-height="140%">Frontend, Backend, Containerization</fo:block>
+                        </fo:block>
+                        <fo:block space-before="4pt" space-after="5pt">
+                           <fo:block text-decoration="underline" font-weight="bold" space-after="4pt">Skills:</fo:block>
+                           <fo:block>
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        keep-with-next="always">Python</fo:block>
+                              <fo:block font-size="11pt" line-height="140%">Advanced Level programmer</fo:block>
+                              <fo:list-block space-after="5pt"
+                                             start-indent="5mm"
+                                             provisional-distance-between-starts="5mm"
+                                             provisional-label-separation="5mm">
+                                 <fo:list-item>
+                                    <fo:list-item-label end-indent="label-end()">
+                                       <fo:block>•</fo:block>
+                                    </fo:list-item-label>
+                                    <fo:list-item-body start-indent="body-start()">
+                                       <fo:block>
+                                          <fo:block font-size="11pt" line-height="140%">DRF</fo:block>
+                                       </fo:block>
+                                    </fo:list-item-body>
+                                 </fo:list-item>
+                                 <fo:list-item>
+                                    <fo:list-item-label end-indent="label-end()">
+                                       <fo:block>•</fo:block>
+                                    </fo:list-item-label>
+                                    <fo:list-item-body start-indent="body-start()">
+                                       <fo:block>
+                                          <fo:block font-size="11pt" line-height="140%">Django</fo:block>
+                                       </fo:block>
+                                    </fo:list-item-body>
+                                 </fo:list-item>
+                                 <fo:list-item>
+                                    <fo:list-item-label end-indent="label-end()">
+                                       <fo:block>•</fo:block>
+                                    </fo:list-item-label>
+                                    <fo:list-item-body start-indent="body-start()">
+                                       <fo:block>
+                                          <fo:block font-size="11pt" line-height="140%">FastAPI</fo:block>
+                                       </fo:block>
+                                    </fo:list-item-body>
+                                 </fo:list-item>
+                              </fo:list-block>
+                           </fo:block>
+                           <fo:block>
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        keep-with-next="always">Java</fo:block>
+                              <fo:block font-size="11pt" line-height="140%">Intermediate Level, but continously improving</fo:block>
+                              <fo:list-block space-after="5pt"
+                                             start-indent="5mm"
+                                             provisional-distance-between-starts="5mm"
+                                             provisional-label-separation="5mm">
+                                 <fo:list-item>
+                                    <fo:list-item-label end-indent="label-end()">
+                                       <fo:block>•</fo:block>
+                                    </fo:list-item-label>
+                                    <fo:list-item-body start-indent="body-start()">
+                                       <fo:block>
+                                          <fo:block font-size="11pt" line-height="140%">Spring Boot</fo:block>
+                                       </fo:block>
+                                    </fo:list-item-body>
+                                 </fo:list-item>
+                              </fo:list-block>
+                           </fo:block>
+                           <fo:block>
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        keep-with-next="always">Estimation</fo:block>
+                              <fo:block font-size="11pt" line-height="140%">Time and effort estimation of development tasks</fo:block>
+                           </fo:block>
+                        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+            <fo:table margin-bottom="4mm">
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell width="25mm">
+                        <fo:block/>
+                     </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block space-after="2pt"
+                                  background-color="#f3f3f3"
+                                  border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     keep-with-next="always">Yoga Teacher</fo:block>
+                        </fo:block>
+                        <fo:block font-style="italic" color="grey" space-before="6pt">
+                           <fo:block font-size="11pt" line-height="140%">Certified Ashtanga Yoga Teacher</fo:block>
+                        </fo:block>
+                        <fo:block space-before="4pt" space-after="5pt">
+                           <fo:block text-decoration="underline" font-weight="bold" space-after="4pt">Skills:</fo:block>
+                           <fo:block>
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        keep-with-next="always">Yoga</fo:block>
+                              <fo:block font-size="11pt" line-height="140%">A Hindu spiritual and ascetic discipline</fo:block>
+                           </fo:block>
+                        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block space-after="8pt">
+            <fo:block font-size="16pt"
+                      line-height="120%"
+                      border-bottom="1pt black solid"
+                      space-before="10pt"
+                      space-after="6pt"
+                      keep-with-next="always">Education</fo:block>
+            <fo:table margin-bottom="4mm">
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell width="25mm">
+                        <fo:block>
+                           <fo:inline font-style="italic">2021-07-01 - 2022-12-31</fo:inline>
+                        </fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt"
+                                  space-before="6pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     space-after="4pt"
+                                     keep-with-next="always">Institution</fo:block>
+                           <fo:inline text-transform="capitalize" font-weight="bold" font-style="italic">Oxford University</fo:inline>
+                           <fo:block font-size="11pt" line-height="140%">The University of Oxford is a collegiate research university in
+                                Oxford, England</fo:block>
+                           <fo:block padding="5pt" border="1pr black solid">
+                              <fo:block color="red" background-color="yellow">Unhandled block element: web</fo:block>
+                              <fo:block>
+                                 <fo:inline font-weight="bold">Address:</fo:inline> Oxford</fo:block>
+                           </fo:block>
+                        </fo:block>
+                        <fo:block color="red" background-color="yellow">Unhandled block element: intended-degree</fo:block>
+                        <fo:block color="red" background-color="yellow">Unhandled block element: degree-completed</fo:block>
+                        <fo:block font-size="11pt" line-height="140%">Attended some classes in the computer science programm but due to my
+                            rising interest in yoga I quit!</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+            <fo:table margin-bottom="4mm">
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell width="25mm">
+                        <fo:block>
+                           <fo:inline font-style="italic">2019-01-01 - 2021-06-30</fo:inline>
+                        </fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt"
+                                  space-before="6pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     space-after="4pt"
+                                     keep-with-next="always">School:</fo:block>
+                           <fo:inline text-transform="capitalize" font-weight="bold" font-style="italic">Elementary School Bamberg</fo:inline>
+                        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block space-after="8pt">
+            <fo:block font-size="16pt"
+                      line-height="120%"
+                      border-bottom="1pt black solid"
+                      space-before="10pt"
+                      space-after="6pt"
+                      keep-with-next="always">Work Experience</fo:block>
+            <fo:table margin-bottom="4mm">
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell width="25mm">
+                        <fo:block>
+                           <fo:inline font-style="italic">2022-08-01 - 2022-08-05</fo:inline>
+                        </fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block space-after="2pt"
+                                  background-color="#f3f3f3"
+                                  border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     keep-with-next="always">Microsoft<fo:inline font-size="67%" baseline-shift="super">TM</fo:inline> specialist</fo:block>
+                           <fo:block font-size="11pt" line-height="140%">Certified by Microsoft<fo:inline font-size="67%" baseline-shift="super">TM</fo:inline>
+                           </fo:block>
+                        </fo:block>
+                        <fo:block border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt"
+                                  space-before="6pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     space-after="4pt"
+                                     keep-with-next="always">Company:</fo:block>
+                           <fo:inline text-transform="capitalize" font-weight="bold" font-style="italic">CarCompany</fo:inline>
+                           <fo:block font-size="11pt" line-height="140%">CarCompany sells a lot of cars every year.</fo:block>
+                        </fo:block>
+                        <fo:block space-before="6pt"
+                                  border="1pt grey solid"
+                                  margin="2pt"
+                                  padding="2pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     space-after="4pt"
+                                     keep-with-next="always">Achievements:</fo:block>
+                           <fo:block background-color="#f3f3f3"
+                                     border-bottom="5pt white solid"
+                                     space-before="4pt"
+                                     keep-together="always">
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        space-after="4pt"
+                                        keep-with-next="always">
+                                 <fo:inline font-style="italic">2022-08-01 - 2022-08-03</fo:inline>
+                              </fo:block>
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        keep-with-next="always">Installed Windows<fo:inline font-size="67%" baseline-shift="super">TM</fo:inline> OS everywhere</fo:block>
+                              <fo:block space-before="4pt" space-after="5pt">
+                                 <fo:block text-decoration="underline" font-weight="bold" space-after="4pt">Skills:</fo:block>
+                                 <fo:block>
+                                    <fo:block font-size="11pt"
+                                              line-height="120%"
+                                              font-weight="bold"
+                                              keep-with-next="always">Windows<fo:inline font-size="67%" baseline-shift="super">TM</fo:inline> installation</fo:block>
+                                    <fo:block font-size="11pt" line-height="140%">This skill needs to be described with some bullet
+                                            points</fo:block>
+                                    <fo:list-block space-after="5pt"
+                                                   start-indent="5mm"
+                                                   provisional-distance-between-starts="5mm"
+                                                   provisional-label-separation="5mm">
+                                       <fo:list-item>
+                                          <fo:list-item-label end-indent="label-end()">
+                                             <fo:block>•</fo:block>
+                                          </fo:list-item-label>
+                                          <fo:list-item-body start-indent="body-start()">
+                                             <fo:block>
+                                                <fo:block font-size="11pt" line-height="140%">bullet point 1</fo:block>
+                                             </fo:block>
+                                          </fo:list-item-body>
+                                       </fo:list-item>
+                                       <fo:list-item>
+                                          <fo:list-item-label end-indent="label-end()">
+                                             <fo:block>•</fo:block>
+                                          </fo:list-item-label>
+                                          <fo:list-item-body start-indent="body-start()">
+                                             <fo:block>
+                                                <fo:block font-size="11pt" line-height="140%">bullet point 2</fo:block>
+                                             </fo:block>
+                                          </fo:list-item-body>
+                                       </fo:list-item>
+                                    </fo:list-block>
+                                 </fo:block>
+                              </fo:block>
+                              <fo:block font-style="italic" color="grey" space-before="6pt">
+                                 <fo:block font-size="11pt" line-height="140%">Walked from desk to desk and Clicked on the installer icon.</fo:block>
+                                 <fo:list-block space-after="5pt"
+                                                start-indent="5mm"
+                                                provisional-distance-between-starts="5mm"
+                                                provisional-label-separation="5mm">
+                                    <fo:list-item>
+                                       <fo:list-item-label end-indent="label-end()">
+                                          <fo:block>•</fo:block>
+                                       </fo:list-item-label>
+                                       <fo:list-item-body start-indent="body-start()">
+                                          <fo:block>
+                                             <fo:block font-size="11pt" line-height="140%">That was hard work!</fo:block>
+                                          </fo:block>
+                                       </fo:list-item-body>
+                                    </fo:list-item>
+                                    <fo:list-item>
+                                       <fo:list-item-label end-indent="label-end()">
+                                          <fo:block>•</fo:block>
+                                       </fo:list-item-label>
+                                       <fo:list-item-body start-indent="body-start()">
+                                          <fo:block>
+                                             <fo:block font-size="11pt" line-height="140%">I really do not regret this!</fo:block>
+                                          </fo:block>
+                                       </fo:list-item-body>
+                                    </fo:list-item>
+                                 </fo:list-block>
+                              </fo:block>
+                           </fo:block>
+                           <fo:block background-color="#f3f3f3"
+                                     border-bottom="5pt white solid"
+                                     space-before="4pt"
+                                     keep-together="always">
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        space-after="4pt"
+                                        keep-with-next="always">
+                                 <fo:inline font-style="italic">2022-08-04 - 2022-08-05</fo:inline>
+                              </fo:block>
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        keep-with-next="always">Unwired cable salad unter each desk</fo:block>
+                              <fo:block font-style="italic" color="grey" space-before="6pt">
+                                 <fo:block font-size="11pt" line-height="140%">Walked from desk to desk and cleaned up the cable mess under each
+                                    desk.</fo:block>
+                              </fo:block>
+                           </fo:block>
+                        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+            <fo:table margin-bottom="4mm">
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell width="25mm">
+                        <fo:block>
+                           <fo:inline font-style="italic">2023-08-01 - 2023-08-15</fo:inline>
+                        </fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell>
+                        <fo:block space-after="2pt"
+                                  background-color="#f3f3f3"
+                                  border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     keep-with-next="always">Software Developer</fo:block>
+                        </fo:block>
+                        <fo:block border="1pt grey solid"
+                                  padding="2pt"
+                                  margin="2pt"
+                                  space-before="6pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     space-after="4pt"
+                                     keep-with-next="always">Company:</fo:block>
+                           <fo:inline text-transform="capitalize" font-weight="bold" font-style="italic">Big Bank</fo:inline>
+                           <fo:block padding="5pt" border="1pr black solid">
+                              <fo:block>
+                                 <fo:inline font-weight="bold">Address:</fo:inline> Big City</fo:block>
+                              <fo:block>
+                                 <fo:inline font-weight="bold">Country:</fo:inline> Big Country</fo:block>
+                           </fo:block>
+                        </fo:block>
+                        <fo:block space-before="6pt"
+                                  border="1pt grey solid"
+                                  margin="2pt"
+                                  padding="2pt">
+                           <fo:block font-size="11pt"
+                                     line-height="120%"
+                                     font-weight="bold"
+                                     space-after="4pt"
+                                     keep-with-next="always">Achievements:</fo:block>
+                           <fo:block background-color="#f3f3f3"
+                                     border-bottom="5pt white solid"
+                                     space-before="4pt"
+                                     keep-together="always">
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        space-after="4pt"
+                                        keep-with-next="always"/>
+                              <fo:block font-size="11pt"
+                                        line-height="120%"
+                                        font-weight="bold"
+                                        keep-with-next="always">Converted Big Data</fo:block>
+                              <fo:block font-style="italic" color="grey" space-before="6pt">
+                                 <fo:block font-size="11pt" line-height="140%">I really have to put this really important para here!</fo:block>
+                              </fo:block>
+                           </fo:block>
+                        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block space-after="8pt">
+            <fo:block font-size="16pt"
+                      line-height="120%"
+                      border-bottom="1pt black solid"
+                      space-before="10pt"
+                      space-after="6pt"
+                      keep-with-next="always">Hobbies</fo:block>
+            <fo:block color="red" background-color="yellow">Unhandled block element: hobby</fo:block>
+         </fo:block>
+      </fo:flow>
+   </fo:page-sequence>
+   <fo:page-sequence master-reference="page">
+      <fo:flow flow-name="xsl-region-body">
+         <fo:table border="1pt grey solid"
+                   border-spacing="2mm"
+                   border-collapse="separate"
+                   space-after="18pt">
+            <fo:table-body>
+               <fo:table-row>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Bewerber ID:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> alexdusel-0001</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Eingegangen am:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> 2023-09-11</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Version:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> 2</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Status:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block> Accepted</fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+               <fo:table-row>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Sprache:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>de-DE</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell font-weight="bold">
+                     <fo:block>Schlüsselkompetenz:</fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>
+                Yoga, 
+                Python, 
+                XML
+            </fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+            </fo:table-body>
+         </fo:table>
+         <fo:block font-weight="bold"
+                   font-size="18pt"
+                   text-align="center"
+                   space-after="4pt"> Senior XML
+            Developer</fo:block>
+         <fo:block font-size="9pt"
+                   font-style="italic"
+                   color="grey"
+                   text-align="center"
+                   space-after="10pt">(Kündigungsfrist: 3 Monate)</fo:block>
+         <fo:block font-size="16pt" space-after="10pt" border-bottom="1pt black solid">
+                Alex
+                Düsel
+            </fo:block>
+         <fo:table>
+            <fo:table-body>
+               <fo:table-row>
+                  <fo:table-cell>
+                     <fo:block padding="5pt" border="1pr black solid">
+                        <fo:block>
+                           <fo:inline font-weight="bold">Email:</fo:inline> tekturcms@gmail.com</fo:block>
+                        <fo:block>
+                           <fo:inline font-weight="bold">Adresse:</fo:inline> Bamberg</fo:block>
+                     </fo:block>
+                  </fo:table-cell>
+                  <fo:table-cell>
+                     <fo:block>
+                        <fo:external-graphic content-width="70mm" src="./alex.png"/>
+                        <fo:block font-size="11pt" font-style="italic" text-align="center">Alex ca. 2018</fo:block>
+                     </fo:block>
+                  </fo:table-cell>
+               </fo:table-row>
+            </fo:table-body>
+         </fo:table>
+      </fo:flow>
+   </fo:page-sequence>
+</fo:root>

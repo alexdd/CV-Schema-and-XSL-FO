@@ -16,7 +16,6 @@
                 <xsl:apply-templates select="$lookup-result/node()"/>
             </xsl:when>
             <xsl:otherwise>
-
                 <xsl:value-of select="$warning-message"/>
                 <xsl:message>
                     <xsl:value-of select="$warning-message"/>

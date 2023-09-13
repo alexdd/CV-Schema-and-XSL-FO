@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <boilerplates>
     <boilerplate key="B_skills">
-        <translation lang="de-DE">Kompetenzen</translation>
-        <translation lang="en-GB">Skills</translation>
+        <translation lang="de-DE">Kompetenzen:</translation>
+        <translation lang="en-GB">Skills:</translation>
     </boilerplate>
     <boilerplate key="B_organization_academic">
         <translation lang="de-DE">Ausbildungsstätte</translation>
@@ -11,6 +11,10 @@
     <boilerplate key="B_organization_industry">
         <translation lang="de-DE">Firma:</translation>
         <translation lang="en-GB">Company:</translation>
+    </boilerplate>
+    <boilerplate key="B_organization_school">
+        <translation lang="de-DE">Schule:</translation>
+        <translation lang="en-GB">School:</translation>
     </boilerplate>
     <boilerplate key="B_date-of-birth">
         <translation lang="de-DE">Geb. am:</translation>

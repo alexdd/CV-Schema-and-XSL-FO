@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="cv.rnc" type="application/relax-ng-compact-syntax" schematypens="http://relaxng.org/ns/structure/1.0"?>
-
 <applications>
     <application id="1" language="en-GB">
         <application-meta>
@@ -341,7 +340,7 @@
             <application-key-skill>
                 <primary>Yoga</primary>
                 <secondary>Python</secondary>
-                <tertiaryy>XML</tertiaryy>
+                <tertiary>XML</tertiary>
             </application-key-skill>
             <application-status status="accepted">Accepted</application-status>
         </application-meta>

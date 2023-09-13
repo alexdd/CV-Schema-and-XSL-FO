@@ -4,7 +4,7 @@
 
     <xsl:template match="skills">
         <fo:block xsl:use-attribute-sets="skills">
-            <fo:block xsl:use-attribute-sets="subsection-title">
+            <fo:block xsl:use-attribute-sets="skills-title">
                 <xsl:call-template name="render-boilerplate-text"/>
             </fo:block>
             <xsl:apply-templates/>
@@ -19,10 +19,6 @@
 
     <xsl:template match="role">
         <fo:block xsl:use-attribute-sets="role">
-            <fo:inline xsl:use-attribute-sets="role-label">
-                <xsl:call-template name="render-boilerplate-text"/>
-            </fo:inline>
-            <xsl:text> </xsl:text>
             <xsl:apply-templates/>
         </fo:block>
     </xsl:template>
